@@ -110,7 +110,7 @@ public final class Explosives {
         Material.GRAY_CONCRETE,
         "&7增强混凝土",
         "",
-        "&7防爆(飞防爆破)混凝土"
+        "&7防爆(非防爆破)混凝土"
     );
 
     public static final SlimefunItemStack NUCLEAR_BOMB = new SlimefunItemStack(
