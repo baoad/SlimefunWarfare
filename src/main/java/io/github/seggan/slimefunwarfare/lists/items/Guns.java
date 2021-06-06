@@ -11,119 +11,119 @@ public final class Guns {
     public static final SlimefunItemStack PISTOL = new SlimefunItemStack(
         "GUN_PISTOL",
         Material.CROSSBOW,
-        "&7Pistol",
+        "&7手枪",
         "",
-        "&7A short range gun",
-        "&7that reloads quickly.",
-        "&7Useful for close combat.",
-        "&cRange: 10",
-        "&cDamage: 3 hearts",
-        "&cCooldown: 0.5 seconds"
+        "&7射程较短",
+        "&7装填速度快.",
+        "&7用于近距离战斗.",
+        "&c射程:10",
+        "&c伤害:3生命",
+        "&c冷却时间:0.5秒"
     );
 
     public static final SlimefunItemStack REVOLVER = new SlimefunItemStack(
         "GUN_REVOLVER",
         Material.CROSSBOW,
-        "&7Revolver",
+        "&7左轮手枪",
         "",
-        "&7A short range gun",
-        "&7that reloads quickly.",
-        "&7Useful for close combat.",
-        "&cRange: 10",
-        "&cDamage: 3 hearts",
-        "&cCooldown: 0.3 seconds"
+        "&7射程较短",
+        "&7装填速度较快.",
+        "&7用于近距离战斗.",
+        "&c射程:10",
+        "&c伤害:3生命",
+        "&c冷却时间:0.3秒"
     );
 
     public static final SlimefunItemStack MACHINE_GUN = new SlimefunItemStack(
         "GUN_MACHINE_GUN",
         Material.CROSSBOW,
-        "&7Machine Gun",
+        "&7机枪",
         "",
-        "&7Pew pew pew",
-        "&cRange: 30",
-        "&cMinimum Range: 5",
-        "&cDamage: 3 hearts",
-        "&cCooldown: 0.15 seconds"
+        "&7嘭~嘭~嘭",
+        "&c射程:30",
+        "&c最小射程:5",
+        "&c伤害:3生命",
+        "&c冷却时间:0.15秒"
     );
 
     public static final SlimefunItemStack MINIGUN = new SlimefunItemStack(
         "GUN_MINIGUN",
         Material.CROSSBOW,
-        "&7Minigun",
+        "&7微型枪",
         "",
-        "&7The ultimate device",
-        "&7to pepper your friends with.",
-        "&cRange: 40",
-        "&cMinimum Range: 5",
-        "&cDamage: 4 hearts",
-        "&cCooldown: none"
+        "&7终极武器",
+        "&7朋友快乐机.",
+        "&c射程:40",
+        "&c最小射程:5",
+        "&c伤害:4生命",
+        "&c冷却时间:0秒"
     );
 
     public static final SlimefunItemStack RIFLE = new SlimefunItemStack(
         "GUN_RIFLE",
         Material.CROSSBOW,
-        "&7Rifle",
+        "&7步枪",
         "",
-        "&7A standard rifle.",
-        "&cRange: 40",
-        "&cMinimum Range: 5",
-        "&cDamage: 4 hearts",
-        "&cCooldown: 0.75 seconds"
+        "&7标准步枪.",
+        "&c射程:40",
+        "&c最小射程:5",
+        "&c伤害:4生命",
+        "&c射击简断:0.75秒"
     );
 
     public static final SlimefunItemStack SHOTGUN = new SlimefunItemStack(
         "GUN_SHOTGUN",
         Material.CROSSBOW,
-        "&7Shotgun",
+        "&7猎枪",
         "",
-        "&7Less range than a",
-        "&7rifle, but more damage.",
-        "&cRange: 25",
-        "&cMinimum Range: 5",
-        "&cDamage: 6.5 hearts",
-        "&cCooldown: 1.25 seconds"
+        "&7射程较短",
+        "&7伤害高于步枪.",
+        "&c射程:25",
+        "&c最小射程:5",
+        "&c伤害:6.5生命",
+        "&c冷却时间:1.25秒"
     );
 
     public static final SlimefunItemStack ASSAULT_RIFLE = new SlimefunItemStack(
         "GUN_ASSAULT_RIFLE",
         Material.CROSSBOW,
-        "&7Assault Rifle",
+        "&7突击步枪",
         "",
-        "&7A derivative of",
-        "&7the rifle, the assault",
-        "&7rifle is the standard",
-        "&7military weapon.",
-        "&cRange: 50",
-        "&cMinimum Range: 3",
-        "&cDamage: 6.5 hearts",
-        "&cCooldown: 0.3 seconds"
+        "&7步枪的衍生物",
+        "&7拥有更好的性能",
+        "&7标准步枪",
+        "&7军用武器.",
+        "&c射程:50",
+        "&c最小射程:3",
+        "&c伤害:6.5生命",
+        "&c冷却时间:0.3时间"
     );
 
     public static final SlimefunItemStack SNIPER = new SlimefunItemStack(
         "GUN_SNIPER",
         Material.CROSSBOW,
-        "&7Sniper Rifle",
+        "&7狙击步枪",
         "",
-        "&7The ultimate long-range",
-        "&7gun, the sniper is very powerful.",
-        "&cRange: 130",
-        "&cMinimum Range: 50",
-        "&cDamage: 11 hearts",
-        "&cCooldown: 8 seconds"
+        "&7他的射程非常长",
+        "&7拥有很高的伤害.",
+        "&c射程:130",
+        "&c最小射程:50",
+        "&c伤害:11生命",
+        "&c冷却时间:8秒"
     );
 
     public static final SlimefunItemStack ENERGY_RIFLE = new SlimefunItemStack(
         "GUN_ENERGY_RIFLE",
         Material.CROSSBOW,
-        "&eEnergy Rifle",
+        "&e电力步枪",
         "",
-        "&7Finally, no need to carry around bullets!",
-        "&cUses 5J per shot",
-        "&cRange: 100",
-        "&cDamage: 10 hearts",
-        "&cCooldown: 0.2 seconds",
+        "&7不用携带子弹!",
+        "&c每发5J",
+        "&c射程:100",
+        "&c伤害:10生命",
+        "&c间隔时间:0.2秒",
         LoreBuilder.powerCharged(0, 2500),
-        "&eNote: The bullets visually shoot a little off",
-        "&ebut you still hit the target"
+        "&e注:子弹看上去射出了一点",
+        "&e其实你击中的目标"
     );
 }

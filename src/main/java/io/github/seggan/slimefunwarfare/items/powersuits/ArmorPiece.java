@@ -4,10 +4,10 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public enum ArmorPiece {
-    HEAD("helmet"),
-    CHEST("chestplate"),
-    LEGS("leggings"),
-    FEET("boots");
+    HEAD("头盔"),
+    CHEST("胸甲"),
+    LEGS("护腿"),
+    FEET("鞋子");
 
     private final String name;
 

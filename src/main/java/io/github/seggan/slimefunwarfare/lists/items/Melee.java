@@ -19,52 +19,52 @@ public final class Melee {
     public static final SlimefunItemStack ENERGY_BLADE = new SlimefunItemStack(
         "ENERGY_BLADE",
         Material.DIAMOND_SWORD,
-        "&bEnergy Blade",
+        "&b动力刀刃",
         "",
-        "&7Known in some circles as a \"lightsaber\",",
-        "&7this advanced sword uses pure energy to",
-        "&7slice through living tissue",
+        "&7可以认为他是\"光剑\",",
+        "&7这把先进的见必须用纯净的能量",
+        "&7非常的锋利",
         "",
-        "&9Uses 5J per hit",
+        "&9每次使用5J",
         LoreBuilder.powerCharged(0, 2500),
         "",
-        "&7When In Main Hand:",
-        "&2 14 Attack Damage",
-        "&2 1.6 Attack Speed"
+        "&7在主手时:",
+        "&214攻击伤害",
+        "&21.6攻击速度"
     );
 
     public static final SlimefunItemStack BATTLE_AXE = new SlimefunItemStack(
         "BATTLE_AXE",
         Material.IRON_AXE,
-        "&6&lBattle Axe",
+        "&6&l战斧",
         "",
-        "&7This axe is designed for battle. No more annoying cooldowns!",
+        "&7这把斧头专门为战场设计的!",
         "",
-        "&7When In Main Hand:",
-        "&2 9 Attack Damage",
-        "&2 1.6 Attack Speed"
+        "&7在主手时:",
+        "&29攻击伤害",
+        "&21.6攻击速度"
     );
 
     public static final SlimefunItemStack OSMIUM_SWORD = new SlimefunItemStack(
         "OSMIUM_SWORD",
         Material.IRON_SWORD,
-        "&6Osmium Sword",
+        "&6锇剑",
         "",
-        "&7Heavy in the hand",
+        "&7非常的重",
         "",
-        "&7When In Main Hand:",
-        "&2 10 Attack Damage",
-        "&2 1.6 Attack Speed"
+        "&7在主手时:",
+        "&210的伤害",
+        "&21.6攻击速度"
     );
 
     public static final SlimefunItemStack DUMMY = new SlimefunItemStack(
         "DUMMY",
         Material.HUSK_SPAWN_EGG,
-        "&fDummy Spawn Egg",
+        "&f标靶蛋",
         "",
-        "&7Right click to spawn a dummy; if you hit him",
-        "&7he'll tell you how much damage you dealt.",
-        "&7Right click on him to destroy him"
+        "&7如果打到他,将会显示掉血数值",
+        "&7右键放置.",
+        "&7右键回收"
     );
 
     static {

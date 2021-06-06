@@ -55,22 +55,22 @@ public class ModuleManipulator extends AbstractContainer {
 
         preset.addItem(INSTALL, new CustomItem(
             Material.REDSTONE,
-            "&fInstall/Uninstall Module"
+            "安装/卸载模块"
         ));
 
         preset.addItem(INSTALLED, new CustomItem(
             Material.BOOK,
-            "&fInstalled Modules (Click to Refresh)"
+            "&f已安装的模块(单击以刷新)"
         ));
 
         preset.addItem(SUIT_MARKER, new CustomItem(
             SkullItem.fromBase64(Heads.SUIT_HELMET),
-            "&4Place Suit Piece Here"
+            "&4把动力套装放在这里"
         ), ChestMenuUtils.getEmptyClickHandler());
 
         preset.addItem(MODULE_MARKER, new CustomItem(
             SkullItem.fromBase64(Heads.MODULE),
-            "&6Place Module Here"
+            "&6把模块放在这里"
         ), ChestMenuUtils.getEmptyClickHandler());
     }
 

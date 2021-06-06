@@ -13,16 +13,16 @@ public final class RecipeTypes {
     public static final RecipeType ELEMENT_FORGE = new RecipeType(
         SlimefunWarfare.inst().getKey("element_forge"),
         Items.ELEMENT_FORGE,
-        "&cElement Forge",
-        "&7Used to create new elements"
+        "&c元素锻造机",
+        "&7在此机器中制造"
     );
 
     public static final RecipeType SPACE = new RecipeType(
         SlimefunWarfare.inst().getKey("space"),
         new CustomItem(
             Material.NETHER_STAR,
-            "&fSpace",
-            "&7Find this material in outer space"
+            "&f另世界",
+            "&7要在液氧世界中获取"
         )
     );
 
