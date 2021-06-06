@@ -61,7 +61,7 @@ public enum Module {
         Items.POWER_SUIT_GENERATOR, Items.MODULE_CASE, Items.POWER_SUIT_GENERATOR,
         Items.ENERGY_RECTIFIER, Items.SEGGANESSON, Items.ENERGY_RECTIFIER
     }, 3),
-    AQUAMASK(7, "面罩模块™", PotionEffectType.CONDUIT_POWER, 0, ArmorPiece.HEAD, new ItemStack[]{
+    AQUAMASK(7, "潮涌能量模块", PotionEffectType.CONDUIT_POWER, 0, ArmorPiece.HEAD, new ItemStack[]{
         new ItemStack(Material.PUFFERFISH), SlimefunItems.CLOTH, new ItemStack(Material.PUFFERFISH),
         Items.SLIMESTEEL, Items.MODULE_CASE, Items.SLIMESTEEL,
         new ItemStack(Material.PUFFERFISH), SlimefunItems.CLOTH, new ItemStack(Material.PUFFERFISH)
@@ -70,7 +70,7 @@ public enum Module {
         Items.OSMIUM_SUPERALLOY, Items.POWER_SUIT_GENERATOR, Items.OSMIUM_SUPERALLOY,
         Items.POWER_SUIT_GENERATOR, Items.MODULE_CASE, Items.POWER_SUIT_GENERATOR,
         Items.OSMIUM_SUPERALLOY, Items.POWER_SUIT_GENERATOR, Items.OSMIUM_SUPERALLOY
-    }, 5, "&7填充模块后让套装提升能量发生"),
+    }, 5, "&7填充模块后让套装提升能量收入"),
     ELECTRONIC_SPRINGS(9, "跳跃模块", PotionEffectType.JUMP, 1, ArmorPiece.LEGS, new ItemStack[]{
         Items.REINFORCED_SLIMESTEEL, SlimefunItems.ADVANCED_CIRCUIT_BOARD, Items.REINFORCED_SLIMESTEEL,
         Items.REINFORCED_SLIMESTEEL, Items.MODULE_CASE, Items.REINFORCED_SLIMESTEEL,
